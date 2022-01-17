@@ -1,0 +1,19 @@
+{'read': '2022-01-17T16: 39: 10.4664639Z', 'preread': '0001-01-01T00: 00: 00Z', 'pids_stats': {'current': 7, 'limit': 18446744073709551615
+    }, 'blkio_stats': {'io_service_bytes_recursive': [
+            {'major': 254, 'minor': 0, 'op': 'read', 'value': 0
+            },
+            {'major': 254, 'minor': 0, 'op': 'write', 'value': 1314816
+            }
+        ], 'io_serviced_recursive': None, 'io_queue_recursive': None, 'io_service_time_recursive': None, 'io_wait_time_recursive': None, 'io_merged_recursive': None, 'io_time_recursive': None, 'sectors_recursive': None
+    }, 'num_procs': 0, 'storage_stats': {}, 'cpu_stats': {'cpu_usage': {'total_usage': 1941142252000, 'usage_in_kernelmode': 1380294976000, 'usage_in_usermode': 560847275000
+        }, 'system_cpu_usage': 203685550000000, 'online_cpus': 4, 'throttling_data': {'periods': 0, 'throttled_periods': 0, 'throttled_time': 0
+        }
+    }, 'precpu_stats': {'cpu_usage': {'total_usage': 0, 'usage_in_kernelmode': 0, 'usage_in_usermode': 0
+        }, 'throttling_data': {'periods': 0, 'throttled_periods': 0, 'throttled_time': 0
+        }
+    }, 'memory_stats': {'usage': 76165120, 'stats': {'active_anon': 0, 'active_file': 540672, 'anon': 72990720, 'anon_thp': 0, 'file': 540672, 'file_dirty': 0, 'file_mapped': 0, 'file_writeback': 0, 'inactive_anon': 72990720, 'inactive_file': 0, 'kernel_stack': 98304, 'pgactivate': 0, 'pgdeactivate': 0, 'pgfault': 53064, 'pglazyfree': 0, 'pglazyfreed': 0, 'pgmajfault': 0, 'pgrefill': 0, 'pgscan': 0, 'pgsteal': 0, 'shmem': 0, 'slab': 1840528, 'slab_reclaimable': 1578128, 'slab_unreclaimable': 262400, 'sock': 0, 'thp_collapse_alloc': 0, 'thp_fault_alloc': 0, 'unevictable': 0, 'workingset_activate': 0, 'workingset_nodereclaim': 0, 'workingset_refault': 0
+        }, 'limit': 2082197504
+    }, 'name': '/epic_lalande', 'id': '72855c6c457cbb5e38ec9da0f1dbb25cdc719aa20e2335146e3a351efa6be9fd', 'networks': {'eth0': {'rx_bytes': 48291, 'rx_packets': 605, 'rx_errors': 0, 'rx_dropped': 0, 'tx_bytes': 157516, 'tx_packets': 2088, 'tx_errors': 0, 'tx_dropped': 0
+        }
+    }
+}
