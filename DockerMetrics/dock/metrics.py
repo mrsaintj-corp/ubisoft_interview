@@ -1,14 +1,7 @@
-import socket
-import os
 import docker
 
 class Metrics:
     def __init__(self, state, node=None):
-        '''
-        State can be either local or network
-        the state will determine if the code
-        should be executed locally or remotely
-        '''
         self.state                          = state
 
         if self.state == "remote":
@@ -24,7 +17,7 @@ class Metrics:
         return container_id.stats(decode=None, stream=False)
 
     def get_containercpu(self, container_stats):
-        cpu_count   = len(container_stats["cpu_stats"]["cpu_usage"]["percpu_usage"])
+        cpu_count       = len(container_stats["cpu_stats"]["cpu_usage"]["percpu_usage"])
         cpu_delta       = container_stats['cpu_stats']['cpu_usage']['total_usage'] - container_stats['precpu_stats']['cpu_usage']['total_usage']
         system_delta    = container_stats['cpu_stats']['system_cpu_usage'] - container_stats['precpu_stats']['system_cpu_usage']
         cpu_percent     = (cpu_delta / system_delta) * cpu_count * 100

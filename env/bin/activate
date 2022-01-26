@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/jstlaurent/Documents/Ubisoft Interview/env"
+VIRTUAL_ENV="/Users/jstlaurent/git/dockermetricsapi/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
